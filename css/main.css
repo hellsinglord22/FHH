@@ -1,0 +1,98 @@
+@font-face {
+  font-family: HIGENSON;
+  src: url(../fonts/Higenson.otf);
+}
+
+/* line 13, main.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 18, main.scss */
+nav {
+  height: 72px;
+  padding: 20px;
+  background: #fafbf6;
+  color: #483b0e;
+}
+/* line 24, main.scss */
+nav .logo {
+  width: 60%;
+  float: left;
+  font-family: HIGENSON;
+  text-transform: uppercase;
+}
+/* line 29, main.scss */
+nav .logo img {
+  float: left;
+  width: 80px;
+  margin-right: 10px;
+}
+/* line 35, main.scss */
+nav .login {
+  float: right;
+}
+/* line 38, main.scss */
+nav .login h3 {
+  float: left;
+  margin-right: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* line 46, main.scss */
+#main {
+  width: 80%;
+  padding: 60px 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: table;
+  margin: 0 auto;
+}
+
+/* line 53, main.scss */
+canvas {
+  float: left;
+}
+
+/* line 57, main.scss */
+#right {
+  width: 30%;
+  float: right;
+  color: #483b0e;
+}
+/* line 61, main.scss */
+#right h2 {
+  font-weight: 700;
+}
+/* line 64, main.scss */
+#right p {
+  font-weight: 400;
+}
+/* line 67, main.scss */
+#right .button {
+  width: 120px;
+  margin-top: 20px;
+  padding: 20px;
+  background: #c7d9a0;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #566338;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 620px) {
+  /* line 83, main.scss */
+  .logo {
+    width: 100%;
+  }
+
+  /* line 86, main.scss */
+  .login {
+    color: black;
+    position: absolute;
+    bottom: 0px;
+  }
+}
