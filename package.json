@@ -1,0 +1,28 @@
+{
+  "name": "the_fifth_hedgehog",
+  "version": "1.0.0",
+  "description": "online gongbang game.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cindy100295/FHH.git"
+  },
+  "keywords": [
+    "game",
+    "online",
+    "multi"
+  ],
+  "author": "H",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cindy100295/FHH/issues"
+  },
+  "homepage": "https://github.com/cindy100295/FHH#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  }
+}
